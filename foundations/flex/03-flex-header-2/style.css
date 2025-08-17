@@ -8,10 +8,27 @@ body {
   font-family: Besley, serif;
 }
 
+.header, .left-element, .right-element{
+  display: flex;
+  align-items: center;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.links {
+  gap: 16px;
+  display: flex;
+  padding: 0;
+}
+
+.right-element {
+  gap: 16px;
+  margin-left: auto;
+  margin-right: 8px;
 }
 
 .profile-image {
@@ -27,6 +44,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 8px;
+  margin-right: 16px;
 }
 
 button {
